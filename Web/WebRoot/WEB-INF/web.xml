@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.siwanghu.view.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>com.siwanghu.view.Home</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Resource</servlet-name>
+    <servlet-class>com.siwanghu.view.Resource</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.LoginControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.RegisterControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditUserControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.EditUserControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExitControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.ExitControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.ChangePasswordControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddWebSiteControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.AddWebSiteControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditWebSiteControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.EditWebSiteControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeWebSiteControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.ChangeWebSiteControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteWebSiteControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.DeleteWebSiteControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeUserControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.ChangeUserControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUserControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.DeleteUserControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InitTableControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.page.InitTableControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrevControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.page.PrevControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NextControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.page.NextControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NumControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.page.NumControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchRecordControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.SearchRecordControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SpliderControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.SpliderControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StopSpliderControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.StopSpliderControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportRecordControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.ExportRecordControler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUploadControler</servlet-name>
+    <servlet-class>com.siwanghu.controler.FileUploadControler</servlet-class>
+  </servlet>
+
+
+
+
+
+  <filter>
+  	<filter-name>CharactorFilter</filter-name>
+  	<filter-class>com.siwanghu.filter.CharactorFilter</filter-class>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>CharactorFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+
+
+  
+      <welcome-file-list>
+        <welcome-file>/View/index.jsp</welcome-file>
+    </welcome-file-list>
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Resource</servlet-name>
+    <url-pattern>/resource</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginControler</servlet-name>
+    <url-pattern>/Login.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterControler</servlet-name>
+    <url-pattern>/Register.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditUserControler</servlet-name>
+    <url-pattern>/EditUserControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExitControler</servlet-name>
+    <url-pattern>/ExitControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordControler</servlet-name>
+    <url-pattern>/ChangePasswordControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddWebSiteControler</servlet-name>
+    <url-pattern>/AddWebSiteControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditWebSiteControler</servlet-name>
+    <url-pattern>/EditWebSiteControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeWebSiteControler</servlet-name>
+    <url-pattern>/ChangeWebSiteControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteWebSiteControler</servlet-name>
+    <url-pattern>/DeleteWebSiteControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeUserControler</servlet-name>
+    <url-pattern>/ChangeUserControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUserControler</servlet-name>
+    <url-pattern>/DeleteUserControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InitTableControler</servlet-name>
+    <url-pattern>/InitTableControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrevControler</servlet-name>
+    <url-pattern>/PrevControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NextControler</servlet-name>
+    <url-pattern>/NextControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NumControler</servlet-name>
+    <url-pattern>/NumControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchRecordControler</servlet-name>
+    <url-pattern>/SearchRecordControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SpliderControler</servlet-name>
+    <url-pattern>/SpliderControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StopSpliderControler</servlet-name>
+    <url-pattern>/StopSpliderControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportRecordControler</servlet-name>
+    <url-pattern>/ExportRecordControler.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUploadControler</servlet-name>
+    <url-pattern>/FileUploadControler.do</url-pattern>
+  </servlet-mapping>
+
+</web-app>
